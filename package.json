@@ -1,0 +1,27 @@
+{
+  "name": "properties2po",
+  "version": "1.0.0",
+  "description": "Converts basic Java `.properties` files (key-value pairs) to `.po`",
+  "main": "parse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliandoran/properties2po.git"
+  },
+  "keywords": [
+    "i18n",
+    "convert"
+  ],
+  "author": "Elian Doran <elinnum@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/eliandoran/properties2po/issues"
+  },
+  "homepage": "https://github.com/eliandoran/properties2po#readme",
+  "dependencies": {
+    "pofile": "^1.0.11",
+    "properties": "^1.2.1"
+  }
+}
