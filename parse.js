@@ -16,5 +16,7 @@ properties.parse("input.properties", {
         output.items.push(message);
     }
 
-    output.save("output.po");
+    output.save("output.po", () => {
+        console.log("Resulting .po file is ./output.po.");
+    });
 });
